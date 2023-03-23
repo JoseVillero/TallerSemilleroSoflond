@@ -1,6 +1,6 @@
-package punto3.vivienda.apartamento;
+package taller1.punto3.vivienda.apartamento;
 
-import punto3.vivienda.Vivienda;
+import taller1.punto3.vivienda.Vivienda;
 
 public class Apartamento extends Vivienda {
     private float valorAdministracion;

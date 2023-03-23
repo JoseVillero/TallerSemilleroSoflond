@@ -1,4 +1,4 @@
-package punto3.local;
+package taller1.punto3.local;
 
 public enum Localizacion {
 

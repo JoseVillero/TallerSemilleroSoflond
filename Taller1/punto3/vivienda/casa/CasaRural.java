@@ -1,4 +1,4 @@
-package punto3.vivienda.casa;
+package taller1.punto3.vivienda.casa;
 
 public class CasaRural extends Casa{
 
@@ -10,5 +10,6 @@ public class CasaRural extends Casa{
         super(identificador, area, direccion, numeroHabitaciones, numeroBanios);
         this.distanciaACabecera = distanciaACabecera;
         this.altitud = altitud;
+        setVALOR_POR_METRO(1500000);
     }
 }

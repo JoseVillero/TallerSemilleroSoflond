@@ -1,6 +1,6 @@
-package punto3;
+package taller1.punto3;
 
-public class Inmuebles {
+public abstract class Inmuebles {
 
     private int identificador;
     private int area;
@@ -8,15 +8,18 @@ public class Inmuebles {
 
     private float valor;
 
-    private float valorPorMetro;
+
+    private float VALOR_POR_METRO;
+
 
     public Inmuebles(int identificador, int area, String direccion) {
         this.identificador = identificador;
         this.area = area;
         this.direccion = direccion;
+        calcularValor();
     }
     private void calcularValor(){
-        valor = area * valorPorMetro;
+        valor = area * VALOR_POR_METRO;
     }
 
     public int getIdentificador() {
@@ -31,12 +34,12 @@ public class Inmuebles {
         return direccion;
     }
 
+    public void setVALOR_POR_METRO(float VALOR_POR_METRO) {
+        this.VALOR_POR_METRO = VALOR_POR_METRO;
+    }
+
     public float getValor() {
         return valor;
     }
 
-    public void setValorPorMetro(float valorPorMetro) {
-        this.valorPorMetro = valorPorMetro;
-        calcularValor();
-    }
 }

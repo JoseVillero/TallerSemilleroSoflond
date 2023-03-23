@@ -1,6 +1,6 @@
-package punto3.vivienda.casa;
+package taller1.punto3.vivienda.casa;
 
-import punto3.vivienda.Vivienda;
+import taller1.punto3.vivienda.Vivienda;
 
 public class Casa extends Vivienda {
 

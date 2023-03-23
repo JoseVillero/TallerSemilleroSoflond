@@ -1,6 +1,6 @@
-package punto3.local;
+package taller1.punto3.local;
 
-import punto3.Inmuebles;
+import taller1.punto3.Inmuebles;
 
 public class Local extends Inmuebles {
 

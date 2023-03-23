@@ -1,4 +1,4 @@
-package punto3.vivienda.casa;
+package taller1.punto3.vivienda.casa;
 
 public class CasaUrbana extends Casa{
 

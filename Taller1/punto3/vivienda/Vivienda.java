@@ -1,6 +1,6 @@
-package punto3.vivienda;
+package taller1.punto3.vivienda;
 
-import punto3.Inmuebles;
+import taller1.punto3.Inmuebles;
 
 public class Vivienda extends Inmuebles {
 

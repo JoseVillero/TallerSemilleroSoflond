@@ -1,4 +1,4 @@
-package punto3.vivienda.casa;
+package taller1.punto3.vivienda.casa;
 
 public class CasaConjuntoCerrado extends CasaUrbana{
 
@@ -10,5 +10,6 @@ public class CasaConjuntoCerrado extends CasaUrbana{
         super(identificador, area, direccion, numeroHabitaciones, numeroBanios);
         this.valorAdministracion = valorAdministracion;
         this.areasComunes = areasComunes;
+        setVALOR_POR_METRO(2500000);
     }
 }

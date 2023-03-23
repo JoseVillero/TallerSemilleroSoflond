@@ -1,4 +1,4 @@
-package punto3.local;
+package taller1.punto3.local;
 
 public class Oficina extends Local{
 
@@ -7,5 +7,6 @@ public class Oficina extends Local{
     public Oficina(int identificador, int area, String direccion, Localizacion localizacion, boolean esDelGobierno) {
         super(identificador, area, direccion, localizacion);
         this.esDelGobierno = esDelGobierno;
+        setVALOR_POR_METRO(3500000);
     }
 }
