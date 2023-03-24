@@ -1,4 +1,4 @@
-package punto2;
+package taller1.punto2;
 
 public class CuentaAhorro extends Cuenta{
     private boolean estaActiva;

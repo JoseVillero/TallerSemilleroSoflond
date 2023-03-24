@@ -1,4 +1,4 @@
-package punto1;
+package taller1.punto1;
 
 public class Precio {
 }

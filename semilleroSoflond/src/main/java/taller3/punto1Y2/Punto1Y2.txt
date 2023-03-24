@@ -1,0 +1,14 @@
+
+1. La cantidad de boletas al NO estar dentro de los rangos establecidos, nos indica que una regla de negocio
+ no esta siendo cumplida, por lo tanto el metodo deberia lanzar una excepcion indicando que la cantidad de boletas
+ no esta dentro del rango establecido. Esto podria ser util en la implemetacion de una interfaz grafica ya que
+saltaria un aviso al usuario con la advertencia.
+
+2. Al utilizar la busqueda de las materias ya sea en una coleccion o en una base de datos, los datos retornados al
+realizar la busqueda si se tiene exito, serian las materias del estudiante que podrian ser por ejemplo de tipo Materia
+o String. Por lo tanto el metodo debe retornar siempre un tipo de dato. Que seria null, si no encuentran materias
+inscritas al estudiante.
+
+
+
+
