@@ -1,4 +1,4 @@
-package taller3.punto4;
+package taller3.punto4.entity;
 
 public class CuentaAhorro extends Cuenta{
 

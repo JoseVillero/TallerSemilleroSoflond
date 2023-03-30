@@ -1,4 +1,4 @@
-package taller3.punto4;
+package taller3.punto4.entity;
 
 public abstract class Cuenta {
     private String numeroDeCuenta;
@@ -39,6 +39,15 @@ public abstract class Cuenta {
     public double getSaldo() {
         return saldo;
     }
+
+    public String getNumeroDeCuenta() {
+        return numeroDeCuenta;
+    }
+
+    public String getPropietario() {
+        return propietario;
+    }
+
     public int getNumeroDeRetiros() {
         return numeroDeRetiros;
     }

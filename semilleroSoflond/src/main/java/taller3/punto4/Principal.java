@@ -1,5 +1,9 @@
 package taller3.punto4;
 
+import taller3.punto4.entity.Cuenta;
+import taller3.punto4.entity.CuentaAhorro;
+import taller3.punto4.entity.CuentaCorriente;
+
 public class Principal {
     public static void main(String[] args) {
         /*

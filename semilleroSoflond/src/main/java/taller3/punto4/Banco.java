@@ -1,5 +1,7 @@
 package taller3.punto4;
 
+import taller3.punto4.entity.Cuenta;
+
 import java.util.ArrayList;
 import java.util.List;
 
