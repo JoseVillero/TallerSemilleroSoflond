@@ -3,6 +3,7 @@ package taller3.punto4;
 import taller3.punto4.entity.Cuenta;
 import taller3.punto4.entity.CuentaAhorro;
 import taller3.punto4.entity.CuentaCorriente;
+import taller3.punto4.repository.CuentaDAO;
 
 public class Principal {
     public static void main(String[] args) {
@@ -121,6 +122,8 @@ public class Principal {
         System.out.println("Saldo: " + cuentaB.getSaldo());
         // Se intenta realiza el 6to retiro, mostrando el mensaje de la excepcion controlada
         banco.retirar(cuentaB,2000);
+
+        CuentaDAO cu = new CuentaDAO();
 
     }
 }

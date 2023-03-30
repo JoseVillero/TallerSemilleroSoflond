@@ -21,11 +21,11 @@ public class Conexion {
     }
     private void crearTabla(Connection con) throws SQLException{
         String tabla = "CREATE TABLE IF NOT EXISTS Cuentas (\n" +
-                "Id INTEGER PRIMARY KEY NOT NULL AUTOINCREMENT,\n" +
-                "NumeroDeCuenta TEXT NOT NULL UNIQUE,\n" +
-                "Saldo REAL NOT NULL\n" +
-                "Propietario TEXT NOT NULL\n" +
-                "NumeroDeRetiros INTEGER NOT NULL" +
+                " Id INTEGER PRIMARY KEY AUTOINCREMENT,\n" +
+                " NumeroDeCuenta TEXT NOT NULL UNIQUE,\n" +
+                " Saldo REAL NOT NULL,\n" +
+                " Propietario TEXT NOT NULL,\n" +
+                " NumeroDeRetiros INTEGER NOT NULL" +
                 ");";
         Statement sentenciaTabla = con.createStatement();
         sentenciaTabla.execute(tabla);
