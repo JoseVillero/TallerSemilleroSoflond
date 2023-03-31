@@ -48,6 +48,10 @@ public abstract class Cuenta {
         return propietario;
     }
 
+    public void setPropietario(String propietario) {
+        this.propietario = propietario;
+    }
+
     public int getNumeroDeRetiros() {
         return numeroDeRetiros;
     }
