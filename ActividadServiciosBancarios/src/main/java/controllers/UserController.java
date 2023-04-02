@@ -27,7 +27,7 @@ public class UserController extends HttpServlet {
 
         String path = req.getPathInfo();
 
-        if(path == null){
+        if(path.equals("/usuario")){
             List<?> users = userService.obtenerTodo();
             resp.setContentType("application/json");
             resp.getWriter().println(users);
